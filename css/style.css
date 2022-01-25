@@ -1,0 +1,408 @@
+
+html
+{
+	scroll-behavior:smooth;
+}
+.bg-image
+{
+	height:110%;
+	background:url(../images/bg.jpg) no-repeat;
+	background-size:cover;
+}
+/* menu bar */
+
+.navbar-toggle .icon-bar
+{
+	background:blue;
+	height: 7px;
+	width: 40px;
+}
+
+.navbar-fixed-top .navbar-collapse
+{
+	max-height: 700px;
+}
+
+.menu li
+{
+	border-radius:20px;
+}
+.menu ul
+{
+	margin-right:15px;
+}
+.menu
+{
+	height:80px;
+	transition:1s;
+	position:fixed;
+}
+.nav>li>a:hover
+{
+	background:transparent;
+}
+.icon
+{
+	position:relative;
+	top:15px;
+	font-size:20px;
+	transition:0.5s;
+	background:blue;
+	color:white;
+	height:50px;
+	width:50px;
+	background:blue;
+	border-radius:180px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.menu ul li:hover a .icon
+{
+	color:blue;
+	transform:translateY(-29px)rotateY(180deg);
+	background:white;
+	font-size:25px;
+	border:2px solid ;
+}
+.text
+{
+	position:relative;
+	top:0px;
+	font-size:20px;
+	opacity:0;
+	transition:0.5s;
+}
+.menu ul li:hover a .text
+{
+	color:orange;
+	opacity:1;
+	top:-10px;
+	color:black;
+	text-shadow: 2px 0px 2px white;
+	
+}
+a
+{
+	text-align:center;
+	height:70px;
+}
+.textAlign
+{
+	display:flex;
+	justify-content:center;
+}
+
+/*--logo--*/
+.logo
+{
+	position: fixed;
+	top: 30px;left: 30px;
+	height: 40px;
+	width: 80px;
+	background:url(../images/2.png) no-repeat;
+	background-size:cover;
+	border: 1px solid white;
+}
+
+/* intro */
+.intro
+{
+	height:50%;
+	display:flex;
+	justify-content:center;
+	padding-top:150px;
+}
+.img1
+{
+	width:200px;
+	height:200px;
+	background:url(../images/g1.jpg) no-repeat;
+	background-size:cover;
+	border: 1px groove white;
+	border-radius:180px;
+	animation:abc 10s ease-in-out infinite;
+}
+@keyframes abc
+{
+	0%
+	{
+		transform:rotateY(0deg);
+	}
+	100%
+	{
+		transform:rotateY(360deg);
+	}
+}
+
+.name
+{
+	padding-left: 40px;
+	padding-top: 60px;
+
+}
+.welcome
+{
+	font-size: 30px;
+	font-family:arial black;
+	-webkit-text-stroke:1px white;
+	text-shadow: 2px 3px 4px white; 
+}
+.iam
+{
+	font-size: 36px;
+	color:blue;
+	text-shadow: 2px 3px 4px white; 
+	-webkit-text-stroke:1px black;
+}
+.A
+{
+	font-size: 36px; 
+	color: deeppink;
+	border-right:3px solid black;
+	text-shadow: 2px 3px 4px white; 
+}
+
+/*---Title Name---*/
+.title
+{
+	padding-top: 80px;
+	font-weight: bold;
+}
+
+/* ---About--- */
+.introduction
+{
+	font-size: 35px;
+	font-family: papyrus;
+	font-weight: 700;
+}
+.img2
+{
+	box-shadow: 0px 0px 10px 4px blue;
+}
+
+/*--Education---*/
+.education
+{
+	background: lightgray;
+}
+.table
+{
+	height:65%;
+}
+.table th
+{
+	font-size:25px;
+	background: lightblue;
+}
+.table td
+{
+	font-size:20px;
+	text-align: center;
+	background:lightblue;
+}
+.table-bordered
+{
+	border:2px solid blue;
+}
+.table>tbody>tr>th,.table>tbody>tr>td
+{
+	vertical-align: inherit;
+}
+
+/*--Skills Section--*/
+.img3
+{
+	height: 200px;
+	width: 200px;
+}
+.skills h2
+{
+	text-align: center;
+	font-weight: bold;
+}
+.skills img:hover
+{
+	animation:abc 3s ease-in-out ;
+	border-radius:180px ;
+	border-left: 5px solid blue;
+	border-right: 5px solid blue ;
+}
+/*---Hobbies Section---*/
+
+.hobbies
+{
+	border: 2px solid ;
+	border-radius: 10px;
+	margin-top: 10px;
+	background: lightgray;
+}
+.hobbies:hover
+{
+	box-shadow: 0px 0px 10px 1px blue;
+	border: 0px;
+}
+.hobicon
+{
+	height: 100px;
+	width: 100px;
+	font-size: 50px;
+	color: blue;
+	border: 5px double black;
+	border-radius: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+.hobbies>p
+{
+	font-size:20px;
+	text-align: center;
+}
+/*---Gallary---*/
+
+
+.gallary
+{
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-top: 15px;
+	height: 40%;
+}
+.gallary>img
+{
+	background-size: cover;
+}
+.g1
+{
+	background: url(../images/g1.jpg) no-repeat;
+	background-size: cover;
+}
+
+.g2
+{
+	background: url(../images/g2.jpg) no-repeat;
+	background-size: cover;
+}
+.g3
+{
+	background: url(../images/g3.jpg) no-repeat;
+	background-size: cover;
+}
+.g4
+{
+	background: url(../images/g4.jpg) no-repeat;
+	background-size: cover;
+}
+.g5
+{
+	background: url(../images/g5.jpg) no-repeat;
+	background-size: cover;
+}
+.g6
+{
+	background: url(../images/g6.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+.G-hover>h1
+{
+	
+	opacity: 0;
+	transition: .5s;
+}
+
+.G-hover
+{
+	text-align: center;
+}
+.G-hover>button
+{
+	opacity: 0;
+	transition: .5s;
+	margin-top: 30%;
+
+}
+.G-hover:hover button
+{
+	opacity:1;
+	margin-top: -1%;
+}
+.G-hover>button:hover
+{
+	background: blue;
+	border: 0px;
+}
+.G-hover:hover h1
+{
+	opacity:1;
+	margin-top: 25%;
+	color: blue;
+}
+.gallary:hover
+{
+	box-shadow: 0px 0px 10px 1px blue;
+	border: 0px;
+}
+
+/*--Contect Section--*/
+
+.contect
+{
+	background: url(../images/contect.jpg) no-repeat;
+	background-size: cover;
+}
+.textarea
+{
+	height: 20%;
+}
+.submit
+{
+	margin: 15px;
+}
+.ImgIcon
+{
+
+	height: 50px;
+	width: 50px;
+	margin: 15px 5px ;
+	border: 0px;
+	transition: .5s;
+	border-radius: 180px;
+}
+input
+{
+	height: 32px;
+}
+input:hover
+{
+	border: 1px solid blue;
+}
+.ImgIcon:hover
+{
+	transform: rotatez(45deg);
+	border:2px solid blue ;
+}
+#Wp
+{
+	background: url(../images/wp.png) no-repeat;
+	background-size: cover;
+}
+#Tw
+{
+	background: url(../images/Tw.png) no-repeat;
+	background-size: cover;
+}
+#fb
+{
+	background: url(../images/fb.png) no-repeat;
+	background-size: cover;
+}
+#Ig
+{
+	background: url(../images/Ig.png) no-repeat;
+	background-size: cover;
+}

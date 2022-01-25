@@ -1,0 +1,418 @@
+<html>
+	<head>
+		<title>My Profile</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!----- Header ---->
+			<header class="bg-image" id="home">
+					<!-- Menu bar -->
+					<nav class="navbar navbar-fixed-top menu ">
+						<a href="#home"><div class="logo" ></div></a>
+						<button class="navbar-toggle" data-toggle="collapse" data-target="#menu-nav">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="menu-nav">	
+							<ul class="nav  navbar-nav navbar-right ">
+								<li>
+									<a href="#home">
+										<div class="textAlign">
+											<span class="icon"><i class="glyphicon glyphicon-home"></i></span>
+										</div>	
+										<span class="text">Home</span>
+									</a>
+								</li>
+								<li>
+									<a href="#about">
+									    <div class="textAlign">
+											<span class="icon"><i class="glyphicon glyphicon-user"></i></span>
+										</div>	
+										<span class="text">About</span>
+									</a>
+								</li>
+								<li>
+									<a  href="#education ">
+										<div class="textAlign">
+											<span class="icon"><i class="glyphicon glyphicon-book"></i></span>
+										</div>
+										<span class="text">Education</span>
+									</a>
+								</li>
+								<li>
+									<a href="#skills">
+										<div class="textAlign">
+											<span class="icon"><i class="glyphicon glyphicon-globe"></i></span>
+										</div>	
+										<span class="text">Skills</span>
+									</a>
+								</li>
+								<li>
+									<a href="#hobbies">
+										<div class="textAlign">
+											<span class="icon"><i class="glyphicon glyphicon-heart"></i></span>
+										</div>	
+										<span class="text">Hobbies</span>
+									</a>
+								</li>
+								<li>
+									<a href="#gallary">
+										<div class="textAlign">
+											<span class="icon"><i class="glyphicon glyphicon-camera"></i></span>
+										</div>	
+										<span class="text">Gallary</span>
+									</a>
+								</li>
+								<li>
+									<a href="#contect">
+										<div class="textAlign">
+											<span class="icon"><i class="glyphicon glyphicon-earphone"></i></span>
+										</div>	
+										<span class="text">Contect</span>
+									</a>
+								</li>
+							</ul>
+							<script>
+								$('.navbar-collapse ul li a').click(function() {
+								$('.navbar-toggle:visible').click();
+								});
+							</script>
+							<script>$(document).on('click','.navbar-collapse.in',function(e) {
+								if( $(menu-nav.target).is('a') && ( $(menu-nav.target).attr('nav navbar-nav') != 'dropdown-toggle' ) ) {
+								$(this).collapse('hide');
+								}});
+							</script>
+						</div>						
+					</nav>
+					<div class="intro">
+						<div class="img1"></div>
+					</div>	
+					<div class="name ">
+						<div class="welcome">WELCOME</div>
+						<div class="iam">I'm Badal Singh Rawat</div>
+						<div class="A"> a Coder And Designer</div>
+					</div>
+			</header>
+		</div>	
+<!-- About Section -->
+		<div class="container-fluid ">
+			<div class="about" id="about">	
+				<h1 class="title text-center">About</h1>
+				<div class="col-lg-offset-1 col-lg-3 col-md-5 col-sm-12 col-xs-12 ">
+					<img src="images/BSR.jpg" class="img-responsive img2" align="center" />
+				</div>
+				<div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 ">
+					<p class="introduction text-justify">Hello...<br/>
+						My Name is Badal Singh Rawat. I was Born and raised in Ajmer Rajsthan.I am currently live in ajmer. I have complete my higher Education Mahatma Gandhi Government Senior Secondary School, Vaishali Nagar, Ajmer. I am Currently perswing 'Bachelor of Computer Applications' (BCA) Course from <a href="https://starinfotechcollege.com/">"Star Infotech college" </a>Ajmer. My life aim to become to a high  and good Developer.
+					</p>
+				</div>		
+			</div>	
+		</div>
+<!-- Education Section -->
+		<div class="container-fluid">
+			<div class="education" id="education">
+				<h1 class="title text-center">Education</h1>
+				<div class="table-responsive">
+					<table class="table table-bordered" >
+						<tbody>
+						<tr>
+							<th>Qualification</th>
+							<td >10th</td>
+							<td>12th</td>
+						</tr>
+						<tr>
+							<th>Percentage</th>
+							<td>51.50%</td>
+							<td>80.40%</td>
+						</tr>
+						<tr>
+							<th>Year</th>
+							<td>2018-19</td>
+							<td>2020-21</td>
+						</tr>
+						<tr>
+							<th>Board Name</th>
+							<td>RBSE</td>
+							<td>RBSE</td>
+						</tr>
+						<tr>
+							<th>School/College</th>
+							<td title="Mahatma Gandhi Govt. Sr. Sec. School, Vaishali Nagar, Ajmer">MGGS,Ajmer</td>
+							<td title="Mahatma Gandhi Govt. Sr. Sec. School, Vaishali Nagar, Ajmer">MGGS,Ajmer</td>
+						</tr>
+					</tbody>
+					</table>
+				</div>	
+			</div>	
+		</div>
+<!-- Skills Section		 -->
+		<div class="container-fluid">
+			<div class="skills" id="skills">
+				<h1 class="title text-center" >Skills</h1>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 " align="center">
+					<img src="images/c-lang.png" class="img-responsive img3"/>
+					<h2>C-Language</h2>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 " align="center">
+					<img src="images/HTML.png" class="img-responsive img3"  />
+					<h2>HTML</h2>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
+					<img src="images/css.png" class="img-responsive img3"/>
+					<h2>CSS</h2>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
+					<img src="images/bootstrap.png" class="img-responsive img3"/>
+					<h2>Bootstrap</h2>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
+					<img src="images/flash.png" class="img-responsive img3"/>
+					<h2>Macro Flash</h2>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" align="center">
+					<img src="images/ps.png" class="img-responsive img3"/>
+					<h2>Photoshop</h2>
+				</div>
+			</div>
+		</div>
+<!---- Hobbies ---->
+		<div class="container-fluid" >
+			<h1 class="title text-center" id="hobbies">Hobbies</h1>
+				<div class=" col-lg-4 col-md-12 col-sm-12 col-xs-12 hobibox " >
+					<div class=" col-lg-12 hobbies" >
+						<center><div class="hobicon">
+							<span class="glyphicon glyphicon-music"></span>
+						</div></center>
+						<h2 align="center">Music</h2>
+						<p> I like to play all sorts of music and I listen to all sorts of music. </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 hobibox">
+					<div class=" col-lg-12 hobbies" >
+						<center><div class="hobicon"><span class="fa fa-gamepad"></span></div></center>
+						<h2 align="center">Games</h2>
+						<p> I like to play online games and play with friends cricket & Kabbadi etc. </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 hobibox">
+					<div class=" col-lg-12 hobbies" >
+						<center><div class="hobicon"><span class="fa fa-users"></span></div></center>
+						<h2 align="center">Coding</h2>
+						<p>I like to coding any langauge and designing.</p>
+					</div>
+				</div>
+		</div>	
+<!---- Gallary ---->
+		<div class="container-fluid ">
+			<h1 class="title text-center" id="gallary">Gallary</h1>
+			<h4 class="text-center">I Share My Pictures.</h4>
+			<div class="gb">
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+					<div class=" col-lg-12 gallary g1 G-hover" >
+						<h1 class="text-center">Me</h1>
+						<button class="btn btn-success" data-toggle="modal" data-target="#G1">Open</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+					<div class=" col-lg-12 gallary g2 G-hover" >
+						<h1 class="text-center">Familiy</h1>
+						<button class="btn btn-success" data-toggle="modal" data-target="#G2">Open</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+					<div class=" col-lg-12 gallary g3 G-hover" >
+						<h1 class="text-center">Brother & Sister</h1>
+						<button class="btn btn-success" data-toggle="modal" data-target="#G3">Open</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+					<div class=" col-lg-12 gallary g4 G-hover" >
+						<h1 class="text-center">Friend</h1>
+						<button class="btn btn-success" data-toggle="modal" data-target="#G4">Open</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+					<div class=" col-lg-12 gallary g5 G-hover" >
+						<h1 class="text-center">College Friends</h1>
+						<button class="btn btn-success" data-toggle="modal" data-target="#G5">Open</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+					<div class=" col-lg-12 gallary g6 G-hover" >
+						<h1 class="text-center">Memory</h1>
+						<button class="btn btn-success" data-toggle="modal" data-target="#G6">Open</button>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!-- Gallary-model -->
+		<!-- image-1 -->
+			<div class="container-fluid ">
+				<div class="modal fade" id="G1" data-backdrop="static" data-keyboard="false">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header text-right">
+								<button class="btn " data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button>
+								<h1 class="alert alert-success text-center">Me</h1>
+							</div>
+							<div class="modal-body">
+									<img src="images/G1.jpg" class="img-responsive"  />
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		<!-- image-2 -->
+			<div class="container-fluid ">
+				<div class="modal fade" id="G2" data-backdrop="static" data-keyboard="false">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header text-right">
+								<button class="btn " data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button>
+								<h1 class="alert alert-success text-center">Family</h1>
+							</div>
+							<div class="modal-body">
+								<img src="images/G2.jpg" class="img-responsive"/>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		<!-- image-3 -->
+			<div class="container-fluid ">
+				<div class="modal fade" id="G3" data-backdrop="static" data-keyboard="false">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header text-right">
+								<button class="btn " data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button>
+								<h1 class="alert alert-success text-center">Brother & Sister</h1>
+							</div>
+							<div class="modal-body">
+								<img src="images/G3.jpg" class="img-responsive"/>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		<!-- image-4 -->
+			<div class="container-fluid ">
+				<div class="modal fade" id="G4" data-backdrop="static" data-keyboard="false">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header text-right">
+								<button class="btn " data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button>
+								<h1 class="alert alert-success text-center">Friend</h1>
+							</div>
+							<div class="modal-body">
+								<img src="images/G4.jpg" class="img-responsive"/>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		<!-- image-5 -->
+			<div class="container-fluid ">
+				<div class="modal fade" id="G5" data-backdrop="static" data-keyboard="false">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header text-right">
+								<button class="btn " data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button>
+								<h1 class="alert alert-success text-center">College Friends</h1>
+							</div>
+							<div class="modal-body">
+								<img src="images/G5.jpg" class="img-responsive " />
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		<!-- image-6 -->
+			<div class="container-fluid ">
+				<div class="modal fade" id="G6" data-backdrop="static" data-keyboard="false">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header text-right">
+								<button class="btn " data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i></button>
+								<h1 class="alert alert-success text-center">Fysagar planting plants</h1>
+							</div>
+							<div class="modal-body">
+								<img src="images/G6.jpg" class="img-responsive"/>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+<!--- Contect Section --->
+	<div class="container-fluid ">
+		<h1 class="title text-center" id="contect">Contect</h1>
+		<div class="contect" >
+			<div class=" col-lg-6 col-md-12 col-sm-12 col-xs-12 " >
+				<div class=" col-lg-12 " >
+					 <h2 class="text-center"><i class="fa fa-map-marker"></i>Address</h2>
+					 <h3 class="text-center">Ratidang Vaishali Nagar,Ajmer(Rajasthan)</h3>
+				</div>
+			</div>
+			<div class=" col-lg-6 col-md-12 col-sm-12 col-xs-12 " >
+				<div class=" col-lg-12 " >
+					<h2 class="text-center"><i class="fa fa-phone"></i>Phone</h2>
+					<h3 class="text-center">+917014643316</h3>
+				</div>
+			</div>
+			<div class=" col-lg-6 col-md-12 col-sm-12 col-xs-12 " >
+				<div class=" col-lg-12 ">
+					<h2>Name</h2>
+					<input type="text" name="name" placeholder="Enter Your Name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" />		
+				</div>
+				<div class=" col-lg-12 ">
+					<h2>Email</h2>
+					<input type="email" name="email" placeholder="Enter Email Id" class="col-lg-12 col-md-12 col-sm-12 col-xs-12" />		
+				</div>
+			</div>
+			<div class=" col-lg-6 col-md-12 col-sm-12 col-xs-12 " >
+				<div class=" col-lg-12 " >
+					<h2>Comments</h2>
+					<input type="textarea" name="name" placeholder="Enter Your Massage" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 textarea" />
+				</div>
+			</div>
+			<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center " >
+				<button class="btn btn-success btn-lg submit">Submit</button>
+			</div>
+			<div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center " >
+				<div class="text-center ">
+					<a href="https://wa.me/<7014643316>" target="_new"><button class="ImgIcon " id="Wp"></button></a>
+					<a href="https://twitter.com/i/flow/login" target="_new"><button class="ImgIcon" id="Tw"></button></a>
+					<a href="https://www.facebook.com/" target="_new"><button class="ImgIcon" id="fb"></button></a>
+					<a href="https://www.instagram.com/badalsingh2582/" target="_new"><button class="ImgIcon" id="Ig"></button></a>
+				</div>
+			</div>
+			<h3 class="text-center"><i class="fa fa-copyright" >Copyright Badal Singh Rawat 2022.Doveloper</i></h3>
+		</div>
+	</div>
+	</body>
+</html>
