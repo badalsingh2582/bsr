@@ -369,7 +369,7 @@ a
 	height: 50px;
 	width: 50px;
 	margin: 15px 5px ;
-	border: 0px;
+	border: 2px solid white;
 	transition: .5s;
 	border-radius: 180px;
 }
