@@ -198,7 +198,7 @@ a
 }
 .table td
 {
-	font-size:20px;
+	font-size:25px;
 	text-align: center;
 	background:lightblue;
 }
@@ -307,7 +307,19 @@ a
 	background-size: cover;
 }
 
-
+.modal-i>div
+{
+	padding:3px;
+	
+}
+.modal-i>h1{
+	margin:0px;
+}
+.alert
+{
+	margin:0px;
+	padding:0px;
+}
 .G-hover>h1
 {
 	
@@ -324,7 +336,10 @@ a
 	opacity: 0;
 	transition: .5s;
 	margin-top: 30%;
-
+	background:linear-gradient( cyan,blue ) no-repeat;
+	border:0px;
+	color:white;
+	border-radius:180px;
 }
 .G-hover:hover button
 {
@@ -333,7 +348,7 @@ a
 }
 .G-hover>button:hover
 {
-	background: blue;
+	background:linear-gradient(blue,cyan ) no-repeat;
 	border: 0px;
 }
 .G-hover:hover h1
@@ -341,6 +356,7 @@ a
 	opacity:1;
 	margin-top: 25%;
 	color: blue;
+	text-shadow:0px 2px 3px cyan;
 }
 .gallary:hover
 {
@@ -354,6 +370,7 @@ a
 {
 	background: url(../images/contect.jpg) no-repeat;
 	background-size: cover;
+	color:black;
 }
 .textarea
 {
@@ -362,6 +379,7 @@ a
 .submit
 {
 	margin: 15px;
+	background:linear-gradient( cyan,blue ) no-repeat;
 }
 .ImgIcon
 {
@@ -369,7 +387,7 @@ a
 	height: 50px;
 	width: 50px;
 	margin: 15px 5px ;
-	border: 2px solid white;
+	border: 0px;
 	transition: .5s;
 	border-radius: 180px;
 }
@@ -377,14 +395,9 @@ input
 {
 	height: 32px;
 }
-input:hover
-{
-	border: 1px solid blue;
-}
 .ImgIcon:hover
 {
-	transform: rotatez(45deg);
-	border:2px solid blue ;
+	box-shadow:0px 0px 7px 4px blue;
 }
 #Wp
 {
@@ -405,4 +418,17 @@ input:hover
 {
 	background: url(../images/ig.png) no-repeat;
 	background-size: cover;
+}
+
+/* --Button-- */
+
+.btn-d
+{
+	//background:linear-gradient( cyan,blue ) no-repeat;
+	border:0px;
+	color:white;
+	border-radius:180px;
+}
+input{
+	outline:1px;
 }
