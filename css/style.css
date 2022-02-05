@@ -424,10 +424,10 @@ input
 
 .btn-d
 {
-	//background:linear-gradient( cyan,blue ) no-repeat;
 	border:0px;
 	color:white;
 	border-radius:180px;
+	outline:1px;
 }
 input{
 	outline:1px;
