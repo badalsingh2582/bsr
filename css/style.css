@@ -14,8 +14,6 @@ html
 .navbar-toggle .icon-bar
 {
 	background:blue;
-	height: 5px;
-	width: 40px;
 }
 
 .navbar-fixed-top .navbar-collapse
@@ -98,8 +96,8 @@ a
 {
 	position: fixed;
 	top: 20px;left: 30px;
-	height: 40px;
-	width: 80px;
+	height: 30px;
+	width: 60px;
 	background:url(../images/2.png) no-repeat;
 	background-size:cover;
 	border: 1px solid white;
@@ -111,7 +109,7 @@ a
 	height:50%;
 	display:flex;
 	justify-content:center;
-	padding-top:150px;
+	padding-top:130px;
 }
 .img1
 {
@@ -121,25 +119,13 @@ a
 	background-size:cover;
 	border: 1px groove white;
 	border-radius:180px;
-	animation:abc 10s ease-in-out infinite;
+	
 }
-@keyframes abc
-{
-	0%
-	{
-		transform:rotateY(0deg);
-	}
-	100%
-	{
-		transform:rotateY(360deg);
-	}
-}
+
 
 .name
 {
-	padding-left: 40px;
-	padding-top: 60px;
-
+	padding-top: 50px;
 }
 .welcome
 {
@@ -147,10 +133,12 @@ a
 	font-family:arial black;
 	-webkit-text-stroke:1px white;
 	text-shadow: 2px 3px 4px white; 
+	text-align:center;
 }
 .iam
 {
 	font-size: 36px;
+	text-align:center;
 	color:blue;
 	text-shadow: 2px 3px 4px white; 
 	-webkit-text-stroke:1px black;
@@ -158,6 +146,7 @@ a
 .A
 {
 	font-size: 36px; 
+	text-align:center;
 	color: deeppink;
 	border-right:3px solid black;
 	text-shadow: 2px 3px 4px white; 
@@ -173,40 +162,53 @@ a
 /* ---About--- */
 .introduction
 {
-	font-size: 35px;
-	font-family: papyrus;
-	font-weight: 700;
+	/*font-size: 35px;
+	font-family: papyrus;*/
+	font-size: large;
+	
 }
 .img2
 {
 	box-shadow: 0px 0px 10px 4px blue;
 }
 
+.ab_table
+{
+	width:100%;
+	padding:0;
+}
+.ab_table>tbody>tr>td,.ab_table>tbody>tr>th
+{
+		padding:0px;
+		
+}
+.ab_table th{
+	
+	width:15%;
+}
+
+
 /*--Education---*/
 .education
 {
 	background: lightgray;
 }
-.table
+.edu_table
 {
 	height:65%;
 }
-.table th
+.edu_table th
 {
 	font-size:25px;
 	background: lightblue;
 }
-.table td
+.edu_table td
 {
 	font-size:25px;
 	text-align: center;
 	background:lightblue;
 }
-.table-bordered
-{
-	border:2px solid blue;
-}
-.table>tbody>tr>th,.table>tbody>tr>td
+.edu_table>tbody>tr>th,.edu_table>tbody>tr>td
 {
 	vertical-align: inherit;
 }
@@ -222,13 +224,6 @@ a
 	text-align: center;
 	font-weight: bold;
 }
-.skills img:hover
-{
-	animation:abc 3s ease-in-out ;
-	border-radius:180px ;
-	border-left: 5px solid blue;
-	border-right: 5px solid blue ;
-}
 /*---Hobbies Section---*/
 
 .hobbies
@@ -237,11 +232,6 @@ a
 	border-radius: 10px;
 	margin-top: 10px;
 	background: lightgray;
-}
-.hobbies:hover
-{
-	box-shadow: 0px 0px 10px 1px blue;
-	border: 0px;
 }
 .hobicon
 {
@@ -331,6 +321,7 @@ a
 {
 	text-align: center;
 }
+
 .G-hover>button
 {
 	opacity: 0;
@@ -384,8 +375,8 @@ a
 .ImgIcon
 {
 
-	height: 50px;
-	width: 50px;
+	height: 35px;
+	width: 35px;
 	margin: 15px 5px ;
 	border: 0px;
 	transition: .5s;
