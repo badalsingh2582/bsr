@@ -122,7 +122,6 @@ a
 	
 }
 
-
 .name
 {
 	padding-top: 50px;
@@ -162,10 +161,7 @@ a
 /* ---About--- */
 .introduction
 {
-	/*font-size: 35px;
-	font-family: papyrus;*/
-	font-size: large;
-	
+	font-size: large;	
 }
 .img2
 {
@@ -180,13 +176,15 @@ a
 .ab_table>tbody>tr>td,.ab_table>tbody>tr>th
 {
 		padding:0px;
-		
 }
 .ab_table th{
 	
 	width:15%;
 }
-
+.email
+{
+	font-size:13px;
+}
 
 /*--Education---*/
 .education
